@@ -1,0 +1,57 @@
+[
+  {
+    "chainId": 1,
+    "networkName": "homestead",
+    "displayName": "Ethereum",
+    "symbol": "ETH",
+    "currencyName": "Ethereum",
+    "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+    "rpcUrls": [
+      "https://rpc.ankr.com/eth"
+    ]
+  },
+  {
+    "chainId": 11155111,
+    "networkName": "sepolia",
+    "displayName": "Sepolia",
+    "symbol": "ETH",
+    "currencyName": "SepoliaETH",
+    "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+    "rpcUrls": [
+      "https://rpc.sepolia.dev"
+    ]
+  },
+  {
+    "chainId": 5,
+    "networkName": "goerli",
+    "displayName": "Görli",
+    "symbol": "ETH",
+    "currencyName": "GoerliETH",
+    "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+    "rpcUrls": [
+      "https://ethereum-goerli-rpc.allthatnode.com"
+    ]
+  },
+  {
+    "chainId": 137,
+    "symbol": "MATIC",
+    "networkName": "polygon",
+    "displayName": "Polygon",
+    "currencyName": "MATIC",
+    "icon": "https://app.uniswap.org/static/media/polygon-matic-logo.97ff139c.svg",
+    "rpcUrls": [
+      "https://polygon-rpc.com"
+    ]
+  },
+  {
+    "chainId": 56,
+    "symbol": "BNB",
+    "networkName": "bsc",
+    "displayName": "Binance Smart Chain",
+    "currencyName": "BNB",
+    "icon": "/bnb-logo.png",
+    "rpcUrls": [
+      "https://bsc-dataseed.binance.org"
+    ]
+  }
+]

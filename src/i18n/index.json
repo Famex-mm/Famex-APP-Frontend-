@@ -1,0 +1,267 @@
+{
+  "en": {
+    "projects": {
+      "slug": {
+        "tabItems": {
+          "info": "Info",
+          "depositWithdraw": "Deposit & Withdraw",
+          "sustainableTrading": "Sustainable Trading",
+          "liquidity": "Liquidity",
+          "vault": "Vault",
+          "vesting": "Vesting"
+        },
+        "bannerContent": {
+          "viewWhitepaper": "View Whitepaper"
+        },
+        "info": {
+          "TVL": "TVL",
+          "totalSupply": "Tot. Supply",
+          "price": "Price",
+          "vested": "Vested",
+          "information": "Information",
+          "news": "News",
+          "priceChart": "Price Chart"
+        },
+        "depositWithdraw": {
+          "wallet": "Wallet",
+          "contract": "Contract",
+          "withdraw": "Withdraw",
+          "deposit": "Deposit",
+          "balance": "Balance",
+          "max": "Max",
+          "inputPlaceholderWithrdaw": "Input amount to withdraw",
+          "releaseVesting": "Release Vesting",
+          "releaseVestingDescriptipon": "Manually release your vested tokens and enable auto vesting release.",
+          "depositLpTokens": "Deposit LP Tokens",
+          "depositLpTokensDescription": "Provide liquidity and earn rewards.",
+          "stakeInVault": "Stake In Vault",
+          "stakeInVaultDescription": "Stake Avatea to earn the native project token.",
+          "withdrawLiquidity": "Withdraw Liquidity",
+          "withdrawLiquidityDescription": "Withdraw your liquidity.",
+          "withdrawLpTokens": "Withdraw LP Tokens",
+          "withdrawLpTokensDescription": "Withdraw your LP tokens.",
+          "withdrawVaultRewards": "Withdraw Vault Rewards",
+          "withdrawVaultRewardsDescription": "Withdraw vault rewards."
+        },
+        "marketMaking": {
+          "bought": "Bought",
+          "sold": "Sold",
+          "avgPrice": "Avg. Price",
+          "allocation": "Allocation",
+          "settings": "Settings",
+          "mode": "Mode",
+          "buy": "Buy",
+          "sell": "Sell",
+          "pressure": "Trading Pressure",
+          "estimationOfDuration": "Estimation of trading duration",
+          "calculatingEstimation": "Calculating...",
+          "days": "Days",
+          "allocatedTradingAmount": "Allocated Trading Amount",
+          "tradingUntil": "Trading Time Limit",
+          "estimatedFraction": "Estimated fraction of allocation to be traded",
+          "maxBuyPrice": "Maximum Buying Price",
+          "minSellPrice": "Minimum Selling Price",
+          "currentPrice": "Current Price",
+          "saveSettings": "Save Trading Settings",
+          "howToGuide": "How to guide - Please make a selection",
+          "buyMode": "Buy Mode",
+          "wantToBuy": "I want to buy",
+          "sellMode": "Sell Mode",
+          "wantToSell": "I want to sell",
+          "previous": "Previous",
+          "next": "Next",
+          "howFast": "How fast would you like this to happen?",
+          "whatPrice": "What price limit do you want to set?",
+          "showSettings": "Show Settings",
+          "belowCurrentPrice": "Below Current Price",
+          "aboveCurrentPrice": "Above Current Price",
+          "enterPrice": "Enter Price",
+          "note": "Note",
+          "noteDescription": "If your price limit is saved on 0, buys & sells will be executed on current market prices.",
+          "allowSustainableSelling": "Allow Sustainable Selling",
+          "modeTooltip": "Select whether you want to buy or sell",
+          "pressureTooltip": "The trading pressure slider indicates how fast you would like to trade your tokens. The higher it is set the faster the algorithm will execute.",
+          "estimationTooltip": "The estimated time it takes to complete your trading request",
+          "tradingUntilTooltip": "The time limit after which the algorithm stops trading your assets",
+          "fractionTooltip": "The percentage of your allocation to be used",
+          "minMaxPriceTooltip": "Your minimum selling or maximum buying price"
+        },
+        "liquidity": {
+          "APY": "APY",
+          "readBeforeProceeding": "Read Before Proceeding",
+          "proceedText": "Providing Liquidity exposes you to a certain risk reward situation, please use with caution.",
+          "proceedButton":"Yes, continue!",
+          "allocation": "Allocation",
+          "liquidityManagement": "Liquidity Management",
+          "provideLiqiduity": "Do you want to provide liquidity in",
+          "updateRatio": "Update Ratio",
+          "withdrawAll": "Withdraw All",
+          "claimRewards": "Claim Rewards",
+          "compoundLiquidity": "Compound Liquidity",
+          "set": "Set",
+          "liquidityRatio": "Liquidity Ratio",
+          "liquidityStats": "Liquidity Stats",
+          "currentValueOfLiquidity": "Current Value Of Liquidity",
+          "currentValueOfRewards": "Current Value Of Rewards",
+          "lockingPeriod": "Locking Period",
+          "unlockedOn": "Unlocked On",
+          "staked": "Staked"
+        },
+        "vault": {
+          "noVaultAvailable": "No Vault Available",
+          "returnToProject": "Return to Project",
+          "earned": "Earned",
+          "APY": "APY",
+          "staked": "Staked",
+          "rewardsManagement": "Rewards Management",
+          "invest": "Invest",
+          "stake": "Stake",
+          "withdraw": "Withdraw",
+          "withdrawRewards": "Withdraw Rewards",
+          "withdrawBoth": "Withdraw Both"
+        },
+        "vesting": {
+          "vested": "Vested",
+          "released": "Released",
+          "releasable": "Releasable",
+          "revocable": "Revocable",
+          "revokeTokens": "Revoke Tokens",
+          "vesting": "Vesting",
+          "releaseTokens": "Release Tokens",
+          "enableAutoRelease": "Enable Auto Release",
+          "readBeforeProceed": "Read before proceeding",
+          "proceedText": "The revoke action can not be reverted, proceed with caution.",
+          "proceedConfirm": "Yes, revoke",
+          "noVestingAvailable": "No Vesting Available",
+          "returnToProject": "Return to project",
+          "autoReleaseDisabled": "Auto Release Disabled",
+          "disableAutoRelease": "Disable Auto Release",
+          "autoReleaseEnabled": "Auto Release Enabled",
+          "yes": "Yes",
+          "no": "No"
+        }
+      }
+    },
+    "management": {
+      "manage": {
+        "information": {
+          "title": "Edit Information",
+          "description": "Edit the main information about your project."
+        },
+        "articles": {
+          "title": "Edit Articles",
+          "description": "Edit the article section."
+        },
+        "support": {
+          "title": "Contact Support",
+          "description": "Contact the Avatea support team."
+        },
+        "message": {
+          "title": "Send Message",
+          "description": "Direct message all of your holders or specific groups of holders."
+        },
+        "history": {
+          "title": "Message History",
+          "description": "View the message history."
+        },
+        "insights": {
+          "title": "Insights",
+          "description": "Key insights and data of your project."
+        }
+      },
+      "pending": {
+        "title": "Verification Pending",
+        "message": "We have sent a confirmation email to your email address, please confirm and sign the form."
+      },
+      "marketMaking": {
+        "title": "Market Making Pool",
+        "createPool": "Create a Market Making pool",
+        "createPoolButton": "Create Market Making Pool",
+        "depositTokensFunds": "Deposit tokens & funds",
+        "settings": "Settings",
+        "noPoolCreated": "No market making pool has been created yet",
+        "attributes": {
+          "usersStaked": "Users Staked",
+          "usersStakedTooltip": "The total amount of staked users",
+          "usersVested": "Users Vested",
+          "usersVestedTooltip": "The total amount of vested users",
+          "tvl": "TVL",
+          "maxBuyingAmountPerDay": "Max Buying Amount per day",
+          "maxBuyingAmountPerDayTooltip": "The total combined amount that all users can buy per day",
+          "maxSellingAmountPerDay": "Max Selling Amount per day",
+          "maxSellingAmountPerDayTooltip": "The total combined amount that all users can sell per day",
+          "maxPreferredDrawdown": "Max Preferred Drawdown",
+          "maxPreferredDrawdownTooltip": "The maximum drawdown accepted after which the algorithm will counter this drawdown",
+          "volume": "Volume",
+          "volumeTooltip": "Additional volume",
+          "lowerPreferredPriceRange": "Lower Preferred Price Range",
+          "lowerPreferredPriceRangeTooltip": "Lower Preferred Price Range",
+          "upperPreferredPriceRange": "Upper Preferred Price Range",
+          "upperPreferredPriceRangeTooltip": "Upper Preferred Price Range",
+          "updateSettingsButton": "Update Settings",
+          "depositFundsButton": "Deposit Funds"
+        },
+        "actions": {
+          "createVesting": {
+            "title": "Create Vesting Schedules",
+            "description": "Set up vesting schedules."
+          },
+          "viewVesting": {
+            "title": "View Vesting Schedules",
+            "description": "View all vesting schedules."
+          },
+          "multiSend": {
+            "title": "Multi Send",
+            "description": "Utilize the multi send functionality, for example for airdrops"
+          },
+          "multiSendHistory": {
+            "title": "View Multi Send History",
+            "description": "View the complete multi send history."
+          }
+        }
+      },
+      "liquidityMaker": {
+        "title": "Liquidity Maker",
+        "noLiquidity": "No Liquidity Making pool has been created yet",
+        "requestLiquidityButton": "Request Liquidity Maker",
+        "attributes": {
+          "usersStaked": "Users Staked",
+          "usersStakedTooltip": "The total amount of staked users",
+          "lockingPeriod": "Locking Period",
+          "lockingPeriodTooltip": "The locking period, in which users cannot withdraw their liquidity",
+          "totalValueLocked": "Total Value Locked",
+          "rewardPerToken": "Reward Per Token",
+          "rewardPerTokenTooltip": "Reward Per Token",
+          "liquidityRewardPerToken": "Liquidity Reward Per Token",
+          "liquidityRewardPerTokenTooltip": "Liquidity Reward Per Token",
+          "addRewards": "Add Rewards",
+          "addRewardsTooltip": "Add Rewards",
+          "addLiquidityRewards": "Add Liquidity Rewards",
+          "addLiquidityRewardsTooltip": "Add Liquidity Rewards",
+          "updateMaxTotalLpAmount": "Update Max Total LP Amount",
+          "updateMaxTotalLpAmountTooltip": "Update Max Total LP Amount",
+          "updateLockingPeriod": "Update Locking Period",
+          "updateLockingPeriodTooltip": "Update Locking Period"
+        }
+      },
+      "vault": {
+        "title": "Vault",
+        "noVault": "No Vault Created Yet",
+        "requestVault": "Request a vault",
+        "attributes": {
+          "usersStaked": "Users Staked",
+          "usersStakedTooltip": "The total amount of staked users",
+          "rewardPerAvateaToken": "Reward per Avatea Token",
+          "rewardPerAvateaTokenTooltip": "Reward per Avatea Token",
+          "addRewards": "Add Rewards",
+          "addRewardsTooltip": "Add Rewards"
+        }
+      },
+      "news": {
+        "title": "Articles Overview",
+        "button": "Add Article",
+        "editButton": "Edit"
+      }
+    }
+  }
+}
