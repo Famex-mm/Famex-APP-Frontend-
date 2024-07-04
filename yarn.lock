@@ -758,6 +758,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@kurkle/color@^0.3.0":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@kurkle/color/-/color-0.3.2.tgz#5acd38242e8bde4f9986e7913c8fdf49d3aa199f"
+  integrity sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==
+
 "@ledgerhq/devices@^4.78.0":
   version "4.78.0"
   resolved "https://registry.yarnpkg.com/@ledgerhq/devices/-/devices-4.78.0.tgz#149b572f0616096e2bd5eb14ce14d0061c432be6"
@@ -1253,14 +1258,14 @@
     "@types/node" "*"
     "@types/responselike" "^1.0.0"
 
-"@types/d3-geo@^3.0.2":
+"@types/d3-geo@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@types/d3-geo/-/d3-geo-3.1.0.tgz#b9e56a079449174f0a2c8684a9a4df3f60522440"
   integrity sha512-856sckF0oP/diXtS4jNsiQw/UuK5fQG8l/a9VVLeSouf1/PPbBE1i1W852zVwKwYCBkFJJB7nCFTbk6UMEXBOQ==
   dependencies:
     "@types/geojson" "*"
 
-"@types/d3-scale-chromatic@^3.0.0":
+"@types/d3-scale-chromatic@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/d3-scale-chromatic/-/d3-scale-chromatic-3.0.3.tgz#fc0db9c10e789c351f4c42d96f31f2e4df8f5644"
   integrity sha512-laXM4+1o5ImZv3RpFAsTRn3TEkzqkytiOY0Dz0sq5cnd1dtNlk6sHLon4OvqaiJb28T0S/TdsBI3Sjsy+keJrw==
@@ -1371,7 +1376,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/topojson-client@^3.1.1":
+"@types/topojson-client@^3.1.4":
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/@types/topojson-client/-/topojson-client-3.1.4.tgz#81b83f9ecd6542dc5c3df21967f992e3fe192c33"
   integrity sha512-Ntf3ZSetMYy7z3PrVCvcqmdRoVhgKA9UKN0ZuuZf8Ts2kcyL4qK34IXBs6qO5fem62EK4k03PtkJPVoroVu4/w==
@@ -3288,24 +3293,26 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chart.js@^3.8.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-3.9.1.tgz#3abf2c775169c4c71217a107163ac708515924b8"
-  integrity sha512-Ro2JbLmvg83gXF5F4sniaQ+lTbSv18E+TIf2cOeiH1Iqd2PGFOtem+DUufMZsCJwFE7ywPOpfXFBwRTGq7dh6w==
-
-chartjs-chart-geo@^3.9.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/chartjs-chart-geo/-/chartjs-chart-geo-3.10.0.tgz#d91fa23abd44aa6551f6f9a2797e69d89dd4c5ab"
-  integrity sha512-UEq/OVFswYSEWyg2qEWCyd5F3UPl9jYGRiRnWl+looU6TsHgm/4RRvtvXUkWOiFR8d6yNC+6jrkudplGM7cbJw==
+chart.js@^4.4.3:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-4.4.3.tgz#3b2e11e7010fefa99b07d0349236f5098e5226ad"
+  integrity sha512-qK1gkGSRYcJzqrrzdR6a+I0vQ4/R+SoODXyAjscQ/4mzuNzySaMCd+hyVxitSY1+L2fjPD1Gbn+ibNqRmwQeLw==
   dependencies:
-    "@types/d3-geo" "^3.0.2"
-    "@types/d3-scale-chromatic" "^3.0.0"
-    "@types/topojson-client" "^3.1.1"
-    d3-array "^3.2.0"
+    "@kurkle/color" "^0.3.0"
+
+chartjs-chart-geo@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/chartjs-chart-geo/-/chartjs-chart-geo-4.3.1.tgz#81821eb94966b08b9d0f381006ec5573968c4003"
+  integrity sha512-99DQkag555iLAbsO+7sJnoO0b5Bk8Me6TFyuNoJkdxjFVuPwbI/XdzPTJ4VjQQ7ATw2ZfMKX5PKpSv4YodjWbA==
+  dependencies:
+    "@types/d3-geo" "^3.1.0"
+    "@types/d3-scale-chromatic" "^3.0.3"
+    "@types/topojson-client" "^3.1.4"
+    d3-array "^3.2.4"
     d3-color "^3.1.0"
-    d3-geo "^3.0.1"
+    d3-geo "^3.1.1"
     d3-interpolate "^3.0.1"
-    d3-scale-chromatic "^3.0.0"
+    d3-scale-chromatic "^3.1.0"
     topojson-client "^3.1.0"
 
 checkpoint-store@^1.1.0:
@@ -3692,7 +3699,7 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
-"d3-array@2.5.0 - 3", d3-array@^3.2.0:
+"d3-array@2.5.0 - 3", d3-array@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-3.2.4.tgz#15fec33b237f97ac5d7c986dc77da273a8ed0bb5"
   integrity sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==
@@ -3704,7 +3711,7 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/d3-color/-/d3-color-3.1.0.tgz#395b2833dfac71507f12ac2f7af23bf819de24e2"
   integrity sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==
 
-d3-geo@^3.0.1:
+d3-geo@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/d3-geo/-/d3-geo-3.1.1.tgz#6027cf51246f9b2ebd64f99e01dc7c3364033a4d"
   integrity sha512-637ln3gXKXOwhalDzinUgY83KzNWZRKbYubaG+fGVuc/dxO64RRljtCTnf5ecMyE1RIdtqpkVcq0IbtU2S8j2Q==
@@ -3718,7 +3725,7 @@ d3-geo@^3.0.1:
   dependencies:
     d3-color "1 - 3"
 
-d3-scale-chromatic@^3.0.0:
+d3-scale-chromatic@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/d3-scale-chromatic/-/d3-scale-chromatic-3.1.0.tgz#34c39da298b23c20e02f1a4b239bd0f22e7f1314"
   integrity sha512-A3s5PWiZ9YCXFye1o246KoscMWqf8BsD9eRiJ3He7C9OBaxKhAd5TFCdEx/7VbKtxxTsu//1mMJFrEt572cEyQ==
