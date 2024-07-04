@@ -27,8 +27,7 @@ export default function Farms(props) {
         useEffect(() => {
         const fetchFarms = async () => {
             const result = await helper.liquidityMaker.getLiquidityMakers();
-            setLiquidityMakers(result);
-            console.log(result)
+            setLiquidityMakers(result ?? []);
         };
             fetchFarms();
 
