@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: famex-app
+    networks:
+      - famex
+    ports:
+      - 5700:5700
+    hostname: famex-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+networks:
+  famex:
+    external: false
