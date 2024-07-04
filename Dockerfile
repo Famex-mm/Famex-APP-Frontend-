@@ -6,7 +6,7 @@ COPY src /src/
 COPY styles /styles/
 COPY *.js /
 COPY *.json /
-RUN npm install --force
+RUN yarn
 RUN npm run build
 EXPOSE 5700
 ENTRYPOINT yarn start -p 5700
